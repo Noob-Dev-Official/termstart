@@ -50,6 +50,7 @@ span {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-right: 300px;
 }
 
 #clock,
@@ -89,6 +90,11 @@ th {
 	color: var(--fg);
 	pointer-events: none;
 	font-family: 'JetBrains Mono', monospace;
+	font-size: 1.05rem;
+}
+
+.prompt-input {
+	font-size: 1.05rem;
 }
 
 .purple {
@@ -126,6 +132,7 @@ li {
 	font-family: 'JetBrains Mono', monospace;
 	padding-left: 8px;
 	margin: 8px;
+	font-size: 1.2rem;
 }
 
 .material-icons.md-36 {

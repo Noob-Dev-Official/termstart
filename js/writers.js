@@ -40,9 +40,9 @@ function list_writer(output) {
 				half2
 					.map(
 						(item) =>
-							`<th class="ls-item"><a target='_blank' href='${
-								links[item.key]
-							}'>${item.key}</a></th>`,
+							`<th class="ls-item"><a href='${links[item.key]}'>${
+								item.key
+							}</a></th>`,
 					)
 					.join(' ');
 		}
